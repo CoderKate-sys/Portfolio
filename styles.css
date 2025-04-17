@@ -1,0 +1,328 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+
+body {
+  background-color: rgb(255, 233, 233);
+  font-family: Georgia, Arial, sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* NavBar */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: pink;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+#navbar li {
+  text-align: right;
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+
+#navbar ul a {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
+}
+
+
+/* About */
+#welcome-section {
+  text-align: center;
+  margin: 100px auto;
+  padding-top: 60px;
+}
+
+
+#welcome-section h1 {
+  color: rgb(49, 49, 49);
+}
+
+
+#welcome-section p {
+  color: rgb(99, 98, 98);
+}
+
+
+#welcome-section .Emoji {
+  align-self: center;
+}
+
+
+/* Certificate */
+#Certifi {
+  margin: 100px auto;
+  padding-bottom: 20px;
+}
+
+
+.all_Certifi {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Certifi {
+  border: 1px solid #c08080;
+  display: block;
+  border-radius: 10px;
+  align-items: center;
+  margin: 50px;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  box-shadow: 0 3px 10px #646060;
+}
+
+
+.Certifi:hover {
+  box-shadow: 0 3px 10px #ac4949;
+}
+
+
+#Certifi h2 {
+  text-align: center;
+  color: rgb(49, 49, 49);
+}
+
+
+#Certifi h4 {
+  text-align: center;
+  color: rgb(99, 98, 98);
+}
+
+
+#Certifi h5 {
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+  font-weight: bold;
+  color: #c08080;
+}
+
+
+#Certifi h5:hover {
+  color: grey;
+  font-size: 32px;
+}
+
+
+#Certifi p {
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(68, 66, 67);
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
+
+
+#Certifi a {
+  text-decoration: none;
+}
+
+
+#Certifi i {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: grey;
+}
+
+
+/* Proj */
+#projects {
+  display: block;
+  margin: 100px auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+.projects-section-header {
+  color: rgb(49, 49, 49);
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.project-tile {
+  text-decoration: none;
+  line-height: 50px;
+}
+
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Cap-Tribute {
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  color: rgb(99, 98, 98);
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+.project1 {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+.project1:hover {
+  width: 405px;
+  height: 305px;
+}
+
+
+.Cap-Store {
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  color: rgb(99, 98, 98);
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+.project2 {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+.project2:hover {
+  width: 405px;
+  height: 305px;
+}
+
+
+.Cap-Game {
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  color: rgb(99, 98, 98);
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+.project3 {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+.project3:hover {
+  width: 405px;
+  height: 305px;
+}
+
+
+.Cap-Cal {
+  display: flex;
+  justify-content: left;
+  margin-left: 60px;
+  color: rgb(99, 98, 98);
+  font-weight: bolder;
+  font-size: large;
+}
+
+
+.project4 {
+  width: 400px;
+  height: 300px;
+  margin-top: 20px;
+}
+
+
+.project4:hover {
+  width: 405px;
+  height: 305px;
+}
+
+
+/* Contact */
+.Contact-section-header {
+  text-align: center;
+  color: rgb(49, 49, 49);
+  padding-top: 30px;
+}
+
+
+#Contact {
+  text-align: center;
+  margin: 100px;
+}
+
+
+.contact1, .contact2 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  transition: transform 0.2s;
+}
+
+
+.contact1:hover, .contact2:hover {
+  transform: scale(1.1);
+}
+
+
+#Contact i,
+#Contact h3 {
+  color: #c08080;
+}
+
+
+/* Footer */
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+  padding: 30px;
+  color: rgb(53, 53, 53);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+  html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+}
