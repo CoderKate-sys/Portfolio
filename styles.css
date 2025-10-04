@@ -137,9 +137,8 @@ nav {
   text-align: center;
   font-size: 1.5rem; 
   font-weight: bold; 
-  color: #c08080; 
-  margin: 20px 0; 
-  text-transform: uppercase; 
+  color: rgb(49, 49, 49); 
+  margin: 20px 0;
   cursor: pointer; 
   transition: color 0.3s ease-in-out; 
 }
@@ -251,5 +250,6 @@ footer {
     padding: 10px;
   }
 }
+
 
 
