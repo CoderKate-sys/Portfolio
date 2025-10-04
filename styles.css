@@ -1,4 +1,4 @@
-
+/* General Styles */
 html {
   overflow-y: auto;
   overflow-x: hidden;
@@ -47,7 +47,7 @@ nav {
 #welcome-section {
   text-align: center;
   margin: 50px auto;
-  padding: 40px 20px; 
+  padding: 100px 20px;
 }
 
 #welcome-section h1 {
@@ -65,7 +65,7 @@ nav {
   height: auto;
 }
 
-
+/* Certificate Section */
 #Certifi {
   margin: 50px auto;
   padding-bottom: 20px;
@@ -84,7 +84,7 @@ nav {
   border-radius: 10px;
   margin: 20px;
   padding: 10px;
-  width: 90%; 
+  width: 90%;
   max-width: 300px;
   height: auto;
   box-shadow: 0 3px 10px #646060;
@@ -121,7 +121,7 @@ nav {
   color: rgb(68, 66, 67);
 }
 
-
+/* Projects Section */
 #projects {
   margin: 50px auto;
   padding: 20px 0;
@@ -164,7 +164,7 @@ nav {
   margin-top: 10px;
 }
 
-
+/* Contact Section */
 .Contact-section-header {
   text-align: center;
   color: rgb(49, 49, 49);
@@ -192,7 +192,7 @@ nav {
   color: #c08080;
 }
 
-
+/* Footer */
 footer {
   width: 100%;
   display: flex;
@@ -205,7 +205,7 @@ footer {
   font-size: 1rem;
 }
 
-
+/* Media Queries for Mobile */
 @media screen and (max-width: 768px) {
   nav {
     height: 60px; 
@@ -215,10 +215,15 @@ footer {
     margin: 0 10px;
   }
 
-  #welcome-section {
-    margin: 20px auto;
-    padding: 20px;
+  #navbar ul a {
+    font-size: 0.8rem;
   }
+
+   #welcome-section {
+    margin: 20px auto;
+    padding: 80px 20px; 
+  }
+
 
   .Certifi {
     margin: 10px;
